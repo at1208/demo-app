@@ -10,7 +10,6 @@ install:
   - npm install -g create-react-app
 script:
   - npm install
-  - npm test
   - npm run build || true
 deploy:
   provider: s3
