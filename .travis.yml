@@ -21,7 +21,7 @@ deploy:
   region: us-east-2
   on:
     repo: at1208/demo-app
-    branch: master
+    branch: main
   bucket: test-travis-cicd
 notifications:
   email:
